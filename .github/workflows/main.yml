@@ -42,4 +42,4 @@ jobs:
             context: .
             dokerfile: Dockerfile
             push: true
-            tags: ${{ secrets.DOCKER_HUB_USERNAME }}/github-action-demo/:$$(date '+%Y%m%d%H%M%S')
+            tags: ${{ secrets.DOCKER_HUB_USERNAME }}/github-action-demo/:$(date '+%Y%m%d%H%M%S')
